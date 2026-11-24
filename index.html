@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio website">
+  <title>Shaurya Yadav | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/8b7d3f8f2a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="#home">Portfolio<span>.</span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">☰</button>
+    <nav id="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Hello, I'm</p>
+        <h1>Shaurya Yadav</h1>
+        <h2>Web Developer &amp; Creative Problem Solver</h2>
+        <p class="intro">
+          I build clean, responsive and user-friendly websites. Replace this text
+          with your own introduction, career goal and a short description of yourself.
+        </p>
+        <div class="buttons">
+          <a class="btn primary" href="#projects">View My Work</a>
+          <a class="btn secondary" href="#contact">Contact Me</a>
+        </div>
+        <div class="socials">
+          <a href="https://instagram.com/aka_shaurya_10" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
+          <a href="https://linkedin.com/in/YOUR_USERNAME" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+          <a href="mailto:shauryait04@gmail.com" aria-label="Email">Email</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <div class="photo-ring">
+          <img src="profile.jpg" alt="Your profile photo">
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">About Me</p>
+        <h2>Get to know me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-card">
+          <p>
+            Write your full bio here. Mention your education, experience,
+            interests, achievements and what kind of opportunities you are looking for.
+          </p>
+          <p>
+            This section is intentionally easy to edit so you can add your complete
+            personal details without changing the design.
+          </p>
+        </div>
+        <div class="details-card">
+          <div><span>Name</span><strong>Shaurya Yadav</strong></div>
+          <div><span>Email</span><strong>shauryait04@gmail.com</strong></div>
+          <div><span>Phone</span><strong>+91 85438 67340</strong></div>
+          <div><span>Location</span><strong>Delhi, India</strong></div>
+          <div><span>Education</span><strong>Doing Btech IT / Gautam budha university</strong></div>
+          <div><span>Availability</span><strong>Open to opportunities</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="section-heading">
+        <p class="eyebrow">My Skills</p>
+        <h2>What I work with</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill"><span>HTML5</span><div class="bar"><i style="width: 95%"></i></div></div>
+        <div class="skill"><span>CSS3</span><div class="bar"><i style="width: 90%"></i></div></div>
+        <div class="skill"><span>JavaScript</span><div class="bar"><i style="width: 85%"></i></div></div>
+        <div class="skill"><span>Responsive Design</span><div class="bar"><i style="width: 90%"></i></div></div>
+        <div class="skill"><span>Git / GitHub</span><div class="bar"><i style="width: 80%"></i></div></div>
+        <div class="skill"><span>Your Skill</span><div class="bar"><i style="width: 75%"></i></div></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Portfolio</p>
+        <h2>Featured Projects</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-icon">01</div>
+          <h3>Project One</h3>
+          <p>Describe your project, the problem it solves and the technologies you used.</p>
+          <a href="#" class="project-link">View Project →</a>
+        </article>
+        <article class="project-card">
+          <div class="project-icon">02</div>
+          <h3>Project Two</h3>
+          <p>Add another project, internship, college project or personal achievement here.</p>
+          <a href="#" class="project-link">View Project →</a>
+        </article>
+        <article class="project-card">
+          <div class="project-icon">03</div>
+          <h3>Project Three</h3>
+          <p>Showcase your strongest work with a short explanation and a link to the live demo.</p>
+          <a href="#" class="project-link">View Project →</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2>Let's connect</h2>
+      </div>
+      <div class="contact-grid">
+        <div>
+          <p class="contact-copy">Have a project, job opportunity or collaboration in mind? Send me a message.</p>
+          <div class="contact-links">
+            <a href="shauryait04@gmail.com">✉ shauryait04@gmail.com</a>
+            <a href="https://linkedin.com/in/YOUR_USERNAME" target="_blank" rel="noopener">in LinkedIn Profile</a>
+            <a href="https://instagram.com/aka_shaurya_10" target="_blank" rel="noopener">◎ Instagram Profile</a>
+          </div>
+        </div>
+        <form id="contactForm">
+          <input type="text" id="name" placeholder="Your name" required>
+          <input type="email" id="email" placeholder="Your email" required>
+          <textarea id="message" rows="5" placeholder="Your message" required></textarea>
+          <button class="btn primary" type="submit">Send Message</button>
+          <p id="formStatus" class="form-status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
